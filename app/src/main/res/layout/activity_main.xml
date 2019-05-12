@@ -1,0 +1,133 @@
+<cn.bsd.learn.discrollve.sample.MyScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.bsd.learn.discrollve.sample.MyLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="662dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/tb_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#007788"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:padding="25dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:text="带上您的行李箱，准备shopping！"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_scaleY="true"
+             />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|right"
+            discrollve:discrollve_translation="fromLeft|fromBottom"
+            discrollve:discrollve_alpha="true"
+            android:src="@drawable/baggage" />
+
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:padding="25dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:text="准备好相机，这里有你想象不到的惊喜！"
+            discrollve:discrollve_fromBgColor="#ff0000"
+            discrollve:discrollve_toBgColor="#88EE66"
+             />
+
+        <!--<MyFrameLayout-->
+            <!--discrollve:discrollve_translation="fromRight" >-->
+            <!--<ImageView-->
+                <!--android:layout_width="220dp"-->
+                <!--android:layout_height="110dp"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:src="@drawable/camera"-->
+                <!--/>-->
+        <!--</MyFrameLayout>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:background="#D97C1F"
+            android:text="这次淘宝造物节真的来了，我们都在造，你造吗？\n
+							7月22日-7月24日\n
+							上海世博展览馆\n
+							在现场，我们造什么？"
+            android:textSize="23sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromBottom" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sweet"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"
+                />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/shoes"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true" 
+            discrollve:discrollve_translation="fromLeft|fromBottom" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/camera"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_translation="fromLeft" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/baggage"
+            discrollve:discrollve_scaleY="true"
+            discrollve:discrollve_translation="fromRight" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/baggage"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            discrollve:discrollve_translation="fromTop" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/shoes"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_translation="fromBottom|fromRight" />
+
+    </cn.bsd.learn.discrollve.sample.MyLinearLayout>
+
+</cn.bsd.learn.discrollve.sample.MyScrollView>
